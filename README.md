@@ -55,12 +55,15 @@ I use the **House Prices: Advanced Regression Techniques** dataset from Kaggle. 
 > **requirements.txt** should include:
 >
 > ```text
+> google-colab
 > numpy
 > pandas
 > scikit-learn
 > xgboost
 > matplotlib
 > seaborn
+> plotly
+> statsmodels
 > ```
 
 ## Usage
