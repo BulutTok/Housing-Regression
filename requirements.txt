@@ -1,0 +1,9 @@
+google-colab
+numpy
+pandas
+scikit-learn
+xgboost
+matplotlib
+seaborn
+plotly
+statsmodels
