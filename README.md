@@ -1,4 +1,4 @@
-# House Prices Prediction Model
+# Benchmarking Regression Algorithms for House Price Prediction
 
 This repository contains a Jupyter Notebook (`housing_price_model.ipynb`) that implements an end-to-end pipeline for predicting house prices using the **Kaggle House Prices: Advanced Regression Techniques** dataset.
 
