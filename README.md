@@ -16,7 +16,6 @@ This repository contains a Jupyter Notebook (`housing_price_model.ipynb`) that i
   * [3. Modeling](#3-modeling)
   * [4. Evaluation](#4-evaluation)
 * [Results](#results)
-* [Future Work](#future-work)
 * [Contributing](#contributing)
 * [License](#license)
 * [Contact](#contact)
@@ -27,7 +26,7 @@ The goal of this project is to build and compare several regression models to pr
 
 ## Dataset
 
-We use the **House Prices: Advanced Regression Techniques** dataset from Kaggle. It includes 79 explanatory variables describing (almost) every aspect of residential homes in Ames, Iowa.
+I use the **House Prices: Advanced Regression Techniques** dataset from Kaggle. It includes 79 explanatory variables describing (almost) every aspect of residential homes in Ames, Iowa.
 
 * Competition link: [https://www.kaggle.com/c/house-prices-advanced-regression-techniques](https://www.kaggle.com/c/house-prices-advanced-regression-techniques)
 
@@ -78,8 +77,8 @@ We use the **House Prices: Advanced Regression Techniques** dataset from Kaggle.
 
 ```text
 
-│   ├── train.csv
-│   └── test.csv
+│── train.csv
+│── test.csv
 ├── housing_price_model.ipynb
 ├── README.md
 └── requirements.txt
@@ -101,7 +100,7 @@ We use the **House Prices: Advanced Regression Techniques** dataset from Kaggle.
 
 ### 3. Modeling
 
-We train and compare the following regressors:
+I train and compare the following regressors:
 
 * **Linear Regression**
 * **Ridge Regression**
@@ -139,12 +138,6 @@ The performance of each model on the test set:
 
 > **Best performance** was achieved by **Ridge Regression** with an R² of 0.8891.
 
-## Future Work
-
-* **Hyperparameter Tuning** (e.g., GridSearchCV).
-* **Advanced Feature Engineering** (polynomial features, interaction terms).
-* **Ensembling Techniques** (stacking, blending).
-* **Cross-Validation** to ensure robustness.
 
 ## Contributing
 
